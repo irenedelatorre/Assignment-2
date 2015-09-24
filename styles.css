@@ -1,0 +1,41 @@
+html,body,h1,h2,h3,h4,p,div,a,ul,li,span{
+    margin:0;
+    padding:0;
+}
+
+#red {
+    background:red;
+    min-height:15vh;
+}
+
+#yellow {
+    background:yellow;
+    z-index: 3;
+}
+
+#green {
+    background:green;
+    z-index: 2;
+}
+
+#blue {
+    background:blue;
+    z-index: 1;
+}
+
+#purple {
+    background: purple;
+    clear: both;
+    min-height:15vh;
+}
+
+
+.parent .box {
+    min-height:70vh;
+}
+
+#yellow, #green, #blue {
+    width:33.3333%;
+    float:left;
+    position: relative;
+}
